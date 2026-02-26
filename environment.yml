@@ -1,0 +1,18 @@
+name: libro-deep-learning
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - pillow
+  - ipython
+  - jupyter
+  - ipykernel
+  - pip:
+      - tensorflow==2.15.*
+      - keras==2.15.*
+      - stldecompose
